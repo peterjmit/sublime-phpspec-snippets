@@ -64,8 +64,8 @@ class PhpspecExampleCommand(sublime_plugin.TextCommand):
     else:
       newline = "\n"
 
-    # TODO this completly ignores indentation
-    string = newline.join([string, "{", "\t", "}"])
+    # Probably not the right way to handle indentation
+    string = newline.join(["\t" + string, "\t{", "\t\t", "\t}"])
 
     if has_newline:
         string = string + newline
