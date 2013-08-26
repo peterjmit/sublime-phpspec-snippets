@@ -59,7 +59,7 @@ Sublime text is lacking a plugin for PhpSpec so it would be
 great if some folks could contribute.
 
 ## TODO 
-* Place cursor in correct position for generated example
+* Fix code for positioning cursor
 * Snippets for creating a "it_" tempalte
 
 [1]: http://phpspec.net

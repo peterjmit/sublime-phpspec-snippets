@@ -3,15 +3,31 @@ import sublime_plugin
 
 class PhpspecExampleCommand(sublime_plugin.TextCommand):
   def run(self, edit):
-    # select full line
-    self.view.run_command("expand_selection", {"to": "line"})
+    view = self.view
+    view.run_command("expand_selection", {"to": "line"})
 
-    # replace line contents
-    selections = self.view.sel()
+    targets = []
+    selections = view.sel()
     for selection in selections:
+      # do replacement
       self.replace(edit, selection)
+      # create new target for cursor movement
+      targets.append(self.move_selection_down_two(selection))
 
-    self.view.sel().clear()
+    # Move the cursor to the new target(s)
+    selections.clear()
+    for target in targets:
+      selections.add(target)
+
+  # I have no idea how to do this properly...
+  def move_selection_down_two(self, selection):
+    view = self.view
+    move_to_row, _ = view.rowcol(selection.end())
+    # second argument here should be end of line,
+    # not beginning (i.e. 0 is wrong)
+    pt = view.text_point(move_to_row + 2, 0)
+
+    return sublime.Region(pt)
 
   def replace(self, edit, selection):
     string = self.view.substr(selection)
