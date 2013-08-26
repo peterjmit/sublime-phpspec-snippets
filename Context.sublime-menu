@@ -1,0 +1,10 @@
+[
+  {
+    "caption" : "-",
+    "id" : "phpspec"
+  },
+  {
+    "caption": "PhpSpec: create example",
+    "command": "phpspec_example"
+  }
+]
