@@ -1,65 +1,37 @@
 # Sublime PhpSpec Snippets
 
-Make writing [PhpSpec][1] a little less repetitive
+Make writing [PhpSpec][1] examples in your Specs a little easier in Sublime Text 2 & 3
+
+![PhpSpec snippet demo](http://i.imgur.com/OIlWwaa.gif)
 
 ## Installation 
 
-Clone the repository into your `Packages/` folder
+This plugin is available as a [sublime package](https://sublime.wbond.net/packages/PhpSpec%20Snippets)
+search for "PhpSpec Snippets".
+
+Alternatively clone this repository into your `Packages/` folder.
 
 ## Usage
 Currently this plugin provides one command to help writing examples
 with PhpSpec
 
 ### Complete example command
-I hate typing underscores, and I wrote this command to ease that pain.
+I hate typing underscores, and I wrote this command to ease that pain. It can be
+accessed in two ways:
 
 * Open the command panel and type "PhpSpec: complete example"
 * Right click and select "PhpSpec: complete example"
 
 The plugin will take the text from the current line and transform
-it into a PhpSpec example
+it into a PhpSpec example. You can also create examples over multiple 
+lines.
 
-For example once you have your spec class you can write the following
+The snippet generator doesn't care if you include or leave out the 
+`function` declaration and/or `it_`/`its_`, the generated example
+will prepend those automatically
 
-```php
-namespace spec;
-
-use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
-
-class MarkdownSpec extends ObjectBehavior
-{
-    // ...
-
-    converts plain text to html
-}
-```
-
-With that line selected, if you run the command it will convert
-the text to the following
-
- ```php
-namespace spec;
-
-use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
-
-class MarkdownSpec extends ObjectBehavior
-{
-    // ...
-
-    function it_converts_plain_text_to_html()
-    {
-
-    }
-}
-```
-
-Sublime text is lacking a plugin for PhpSpec so it would be 
-great if some folks could contribute.
 
 ## TODO 
-* Fix code for positioning cursor
-* Snippets for creating a "it_" tempalte
+* Fix code for positioning cursor (it's a bit tempremental)
 
 [1]: http://phpspec.net
