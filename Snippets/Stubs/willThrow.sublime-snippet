@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+willThrow($1);
+]]></content>
+    <tabTrigger>wt</tabTrigger>
+    <scope>source.php</scope>
+    <description>willThrow / phpspec stub</description>
+</snippet>

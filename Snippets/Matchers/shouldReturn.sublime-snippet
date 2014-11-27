@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldReturn($1);
+]]></content>
+    <tabTrigger>sr</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldReturn / phpspec matcher</description>
+</snippet>

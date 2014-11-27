@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldBeEqualTo($1);
+]]></content>
+    <tabTrigger>sbet</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldBeEqualTo / phpspec matcher</description>
+</snippet>

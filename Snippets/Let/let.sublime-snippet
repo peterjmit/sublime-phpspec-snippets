@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function let($1)
+{
+    $2;
+}]]></content>
+    <tabTrigger>let</tabTrigger>
+    <scope>source.php</scope>
+    <description>let / phpspec example setup</description>
+</snippet>

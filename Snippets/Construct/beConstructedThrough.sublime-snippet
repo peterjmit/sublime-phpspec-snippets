@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+beConstructedThrough('$1',${2:array($3)});
+]]></content>
+    <tabTrigger>bct</tabTrigger>
+    <scope>source.php</scope>
+    <description>beConstructedThrough / phpspec SUS initialization</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldHaveType($1);
+]]></content>
+    <tabTrigger>sht</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldHaveType / phpspec matcher</description>
+</snippet>

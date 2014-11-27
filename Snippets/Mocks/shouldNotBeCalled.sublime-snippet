@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldNotBeCalled($1);
+]]></content>
+    <tabTrigger>snbc</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldNotBeCalled / phpspec mock</description>
+</snippet>
