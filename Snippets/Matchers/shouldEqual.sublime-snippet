@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldEqual($1);
+]]></content>
+    <tabTrigger>se</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldEqual / phpspec matcher</description>
+</snippet>

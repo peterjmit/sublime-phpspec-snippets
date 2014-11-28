@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldBe($1);
+]]></content>
+    <tabTrigger>sb</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldBe / phpspec matcher</description>
+</snippet>

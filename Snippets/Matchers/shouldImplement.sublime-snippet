@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldImplement($1);
+]]></content>
+    <tabTrigger>si</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldImplement / phpspec matcher</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldBeCalled($1);
+]]></content>
+    <tabTrigger>sbc</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldBeCalled / phpspec mock</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldNotHaveBeenCalled($1);
+]]></content>
+    <tabTrigger>snhbc</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldNotHaveBeenCalled / phpspec spy</description>
+</snippet>

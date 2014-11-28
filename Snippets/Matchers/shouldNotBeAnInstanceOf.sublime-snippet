@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldNotBeAnInstanceOf($1);
+]]></content>
+    <tabTrigger>snbi</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldNotBeAnInstanceOf / phpspec matcher</description>
+</snippet>

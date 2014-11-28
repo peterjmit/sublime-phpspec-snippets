@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function letgo()
+{
+    $1;
+}]]></content>
+    <tabTrigger>letgo</tabTrigger>
+    <scope>source.php</scope>
+    <description>letgo / phpspec example teardown</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+shouldBeLike($1);
+]]></content>
+    <tabTrigger>sbl</tabTrigger>
+    <scope>source.php</scope>
+    <description>shouldBeLike / phpspec matcher</description>
+</snippet>
