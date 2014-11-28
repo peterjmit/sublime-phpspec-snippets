@@ -34,10 +34,10 @@ will prepend those automatically.
 
 #### SUS Constructor
 
-`bct` BeConstructedThrought.
+`bct` BeConstructedThrough.
 
 ```php
-beConstructedThrought('',array());
+beConstructedThrough('',array());
 
 ```
 
